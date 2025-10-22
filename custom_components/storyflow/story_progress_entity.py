@@ -9,5 +9,5 @@ class StoryProgressEntity(Entity):
 
     @property
     def state(self):
-        done = sum(1 for t in self.tasks if t.state in ["done", "rejected"])
+        done = sum(bool(t.state in ["done", "rejected"])
         return int(done / len(self.tasks) * 100) if self.tasks else 0

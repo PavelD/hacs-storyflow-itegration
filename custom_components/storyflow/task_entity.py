@@ -10,8 +10,11 @@ class TaskEntity(Entity):
         self.title = title
         self.description = description
         self.assigned_to = assigned_to
-        self._state = state
         self.order = order
+
+        if state not in TASK_STATES:
+            raise ValueError(f"Invalid state '{state}'. Must be one of {TASK_STATES}")
+        self._state = state
 
     @property
     def state(self):

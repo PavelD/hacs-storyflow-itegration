@@ -6,8 +6,9 @@ class StoryManager:
 
     def create_story(self, title, description):
         """Create a new story."""
-        pass
+        raise NotImplementedError("create_story is not implemented yet.")
+
 
     def clone_story(self, story_id, new_title):
         """Clone a story: tasks reset to todo + assigned_to=None."""
-        pass
+        raise NotImplementedError("clone_story is not implemented yet.")

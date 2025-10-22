@@ -1,6 +1,6 @@
 class StoryFlowCard extends HTMLElement {
     set hass(hass) {
-        // TODO: propper display
+        // TODO: proper display
     }
 
     getCardSize() {

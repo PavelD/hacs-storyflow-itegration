@@ -9,9 +9,9 @@ async def async_setup_services(hass):
     async def assign_service(call):
         task_id = call.data["task_id"]
         person_id = call.data.get("person_id")
-        # TODO: find task entity and set assigned_to
+        raise NotImplementedError("assign_service service is not implemented yet.")
 
     async def clone_story_service(call):
         story_id = call.data["story_id"]
         new_title = call.data.get("new_story_name")
-        # TODO: call story_manager.clone_story
+        raise NotImplementedError("clone_story_service service is not implemented yet.")
