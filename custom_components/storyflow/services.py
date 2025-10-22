@@ -4,7 +4,7 @@ async def async_setup_services(hass):
     async def set_state_service(call):
         task_id = call.data["task_id"]
         new_state = call.data["new_state"]
-        # TODO: find task entity and set state
+        raise NotImplementedError("set_state service is not implemented yet.")
 
     async def assign_service(call):
         task_id = call.data["task_id"]
