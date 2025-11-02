@@ -1,6 +1,7 @@
 from homeassistant.helpers.storage import Store
 from .const import DOMAIN
 
+
 class StorageHandler:
     """Wrapper for HA storage .storage/storyflow"""
 

@@ -8,8 +8,7 @@ async def test_config_flow_creates_entry(hass):
 
     # Start the config flow
     result = await hass.config_entries.flow.async_init(
-        DOMAIN,
-        context={"source": "user"}
+        DOMAIN, context={"source": "user"}
     )
     assert result["type"] == "form"
     assert result["step_id"] == "user"
@@ -18,12 +17,11 @@ async def test_config_flow_creates_entry(hass):
     user_input = {
         "story_name": "Winterizing the pool",
         "story_description": "## Steps\n\n- Drain water\n- Turn off pump",
-        "tasks_raw": "Drain water: Remove ~10 cm\nTurn off pump"
+        "tasks_raw": "Drain water: Remove ~10 cm\nTurn off pump",
     }
 
     result2 = await hass.config_entries.flow.async_configure(
-        result["flow_id"],
-        user_input=user_input
+        result["flow_id"], user_input=user_input
     )
 
     # Validate that entry was created

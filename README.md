@@ -1,2 +1,2 @@
 # hacs-storyflow-itegration
-Stry flow integration for home assistant
+Story flow integration for home assistant

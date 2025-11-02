@@ -33,7 +33,12 @@ class StoryFlowConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                     else:
                         task_name, desc = line, ""
                     tasks.append(
-                        {"title": task_name, "description": desc, "state": "todo", "assigned_to": None}
+                        {
+                            "title": task_name,
+                            "description": desc,
+                            "state": "todo",
+                            "assigned_to": None,
+                        }
                     )
 
             if not errors:
@@ -58,7 +63,7 @@ class StoryFlowConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             errors=errors,
             description_placeholders={
                 "example": "Enter name, description (Markdown) and list of tasks line by line.\n"
-                           "Example:\nDrain water: Pump out approx. 10 cm\nSwitch off the pump"
+                "Example:\nDrain water: Pump out approx. 10 cm\nSwitch off the pump"
             },
         )
 
