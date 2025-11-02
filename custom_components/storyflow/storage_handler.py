@@ -4,6 +4,8 @@ from .const import DOMAIN
 class StorageHandler:
     """Wrapper for HA storage .storage/storyflow"""
 
+    VERSION = 1
+
     def __init__(self, hass):
         self.store = Store(hass, self.VERSION, f"{DOMAIN}.json")
 
