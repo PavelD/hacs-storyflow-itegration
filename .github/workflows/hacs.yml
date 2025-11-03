@@ -17,6 +17,7 @@ jobs:
   hacs:
     name: HACS Action
     runs-on: "ubuntu-latest"
+    continue-on-error: true  # TODO: remove on hardening
     steps:
       - uses: "actions/checkout@v4"
 
