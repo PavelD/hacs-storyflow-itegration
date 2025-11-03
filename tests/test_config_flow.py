@@ -1,8 +1,6 @@
-import pytest
 from custom_components.storyflow.const import DOMAIN
 
 
-@pytest.mark.asyncio
 async def test_config_flow_creates_entry(hass):
     """Test that config flow creates a StoryFlow entry with valid data."""
 
