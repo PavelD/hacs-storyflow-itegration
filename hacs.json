@@ -4,6 +4,5 @@
   "render_readme": true,
   "zip_release": false,
   "filename": "custom_components/storyflow",
-  "release_version": "0.0.1",
-  "quality_scale": "silver"
+  "release_version": "0.0.1"
 }
