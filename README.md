@@ -27,6 +27,7 @@ Essentially, a **mini Scrum / checklist tracker** inside Home Assistant.
 - [x] Basic storage of stories and tasks in Home Assistant  
 - [x] Tasks support states (`todo`, `progress`, `review`, `done`, `rejected`)  
 - [x] Tasks can optionally be assigned to a person (`person.<name>` or `None`)  
+- [x] Add support of HACS installation as custom repository  
 
 ### In Progress / Next steps (MVP → v1)
 - [ ] Create new stories via `StoryManager.create_story()`  
@@ -36,7 +37,6 @@ Essentially, a **mini Scrum / checklist tracker** inside Home Assistant.
 - [ ] Simple Lovelace card / UI template to display stories and tasks  
 - [ ] Ability to view task descriptions in UI  
 - [ ] Optional: mark stories as complete with aggregated progress  
-- [ ] Add support of HACS installation as custom repository  
 
 ### Future Enhancements (v1+)
 - [ ] Enforce flow rules (`todo → progress → review → done/rejected`)  
