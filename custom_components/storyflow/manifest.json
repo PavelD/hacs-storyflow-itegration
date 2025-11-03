@@ -1,11 +1,11 @@
 {
   "domain": "storyflow",
   "name": "StoryFlow",
-  "version": "0.1.0",
-  "documentation": "https://todo.example.com",
+  "version": "0.0.1",
+  "documentation": "https://github.com/PavelD/hacs-storyflow-itegration/blob/main/README.md",
   "requirements": [],
   "dependencies": [],
   "codeowners": [],
   "config_flow": true,
-  "iot_class": "local_polling"
+  "issue_tracker": "https://github.com/PavelD/hacs-storyflow-itegration/issues"
 }

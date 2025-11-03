@@ -6,6 +6,5 @@
   "filename": "custom_components/storyflow",
   "last_commit": "master",
   "release_version": "0.0.1",
-  "quality_scale": "silver",
-  "issue_tracker": "https://github.com/PavelD/hacs-storyflow-itegration/issues"
+  "quality_scale": "silver"
 }
