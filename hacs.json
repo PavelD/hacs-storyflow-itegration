@@ -3,6 +3,5 @@
   "homeassistant": "2023.1.0",
   "render_readme": true,
   "zip_release": false,
-  "filename": "custom_components/storyflow",
-  "release_version": "0.0.1"
+  "filename": "custom_components/storyflow"
 }
