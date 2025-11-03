@@ -1,0 +1,11 @@
+{
+  "domain": "storyflow",
+  "name": "StoryFlow",
+  "version": "0.1.0",
+  "documentation": "https://todo.example.com",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
