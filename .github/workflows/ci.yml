@@ -48,5 +48,4 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        pytest --cov=custom_components/storyflow --cov-report=term-missing tests/
-      continue-on-error: true  # don't fail on empty tests
+        pytest --cov=custom_components/storyflow --cov-report=term-missing --cov-fail-under=0 tests/
